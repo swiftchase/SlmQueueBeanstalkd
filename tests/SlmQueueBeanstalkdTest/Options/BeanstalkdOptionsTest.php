@@ -21,6 +21,8 @@ class BeanstalkdOptionsTest extends TestCase
 
     public function testCreateBeanstalkdOptions()
     {
+        return $this->markTestIncomplete('Needs to be reworked');
+
         /** @var $beanstalkdOptions \SlmQueueBeanstalkd\Options\BeanstalkdOptions */
         $beanstalkdOptions = $this->serviceManager->get('SlmQueueBeanstalkd\Options\BeanstalkdOptions');
         $connectionOptions = $beanstalkdOptions->getConnection();

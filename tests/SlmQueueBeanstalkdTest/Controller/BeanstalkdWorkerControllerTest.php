@@ -4,7 +4,7 @@ namespace SlmQueueBeanstalkdTest\Controller;
 
 use PHPUnit_Framework_TestCase as TestCase;
 use SlmQueueBeanstalkd\Controller\BeanstalkdWorkerController;
-use Zend\Mvc\Router\RouteMatch;
+use Zend\Router\RouteMatch;
 
 class BeanstalkdWorkerControllerTest extends TestCase
 {

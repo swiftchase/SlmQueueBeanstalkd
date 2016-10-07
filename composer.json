@@ -26,14 +26,14 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zend-mvc": "~2.2",
-        "zendframework/zend-servicemanager": "~2.2",
-        "zendframework/zend-stdlib": "~2.2",
-        "slm/queue": "0.4.*",
+        "zendframework/zend-mvc": "~2.2 || ~3.0",
+        "zendframework/zend-servicemanager": "~2.2 || ~3.1.1",
+        "zendframework/zend-stdlib": "~2.2 || ~3.1.0",
+        "slm/queue": "0.4.* || 0.6.*",
         "pda/pheanstalk": "~3.0"
     },
     "require-dev": {
-        "zendframework/zendframework": "~2.2",
+        "zendframework/zendframework": "~2.2 || ~3.0",
         "squizlabs/php_codesniffer": "1.5.*",
         "phpunit/phpunit": "~4.1"
     },
